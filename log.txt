@@ -1,0 +1,71 @@
+[EL Fine]: server: 2019-08-13 16:19:15.019--Thread(Thread[main,5,main])--Configured server platform: org.eclipse.persistence.platform.server.NoServerPlatform
+[EL Config]: metadata: 2019-08-13 16:19:15.11--ServerSession(1684792003)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Filme] is set to [FIELD].
+[EL Config]: metadata: 2019-08-13 16:19:15.131--ServerSession(1684792003)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field pedido] is being defaulted to: class modelo.Pedido.
+[EL Config]: metadata: 2019-08-13 16:19:15.132--ServerSession(1684792003)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Pedido] is set to [FIELD].
+[EL Config]: metadata: 2019-08-13 16:19:15.133--ServerSession(1684792003)--Thread(Thread[main,5,main])--The target entity (reference) class for the many to one mapping element [field cliente] is being defaulted to: class modelo.Cliente.
+[EL Config]: metadata: 2019-08-13 16:19:15.136--ServerSession(1684792003)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field filmes] is being defaulted to: class modelo.Filme.
+[EL Config]: metadata: 2019-08-13 16:19:15.137--ServerSession(1684792003)--Thread(Thread[main,5,main])--The access type for the persistent class [class modelo.Cliente] is set to [FIELD].
+[EL Config]: metadata: 2019-08-13 16:19:15.137--ServerSession(1684792003)--Thread(Thread[main,5,main])--The target entity (reference) class for the one to many mapping element [field pedidos] is being defaulted to: class modelo.Pedido.
+[EL Config]: metadata: 2019-08-13 16:19:15.138--ServerSession(1684792003)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Filme] is being defaulted to: Filme.
+[EL Config]: metadata: 2019-08-13 16:19:15.145--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [preco] is being defaulted to: PRECO.
+[EL Config]: metadata: 2019-08-13 16:19:15.146--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [lancamento] is being defaulted to: LANCAMENTO.
+[EL Config]: metadata: 2019-08-13 16:19:15.147--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [titulo] is being defaulted to: TITULO.
+[EL Config]: metadata: 2019-08-13 16:19:15.147--ServerSession(1684792003)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Pedido] is being defaulted to: Pedido.
+[EL Config]: metadata: 2019-08-13 16:19:15.147--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [statusPagamento] is being defaulted to: STATUSPAGAMENTO.
+[EL Config]: metadata: 2019-08-13 16:19:15.148--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [codPedido] is being defaulted to: CODPEDIDO.
+[EL Config]: metadata: 2019-08-13 16:19:15.148--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [dataPedido] is being defaulted to: DATAPEDIDO.
+[EL Config]: metadata: 2019-08-13 16:19:15.148--ServerSession(1684792003)--Thread(Thread[main,5,main])--The alias name for the entity class [class modelo.Cliente] is being defaulted to: Cliente.
+[EL Config]: metadata: 2019-08-13 16:19:15.15--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [cpf] is being defaulted to: CPF.
+[EL Config]: metadata: 2019-08-13 16:19:15.15--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [nome] is being defaulted to: NOME.
+[EL Config]: metadata: 2019-08-13 16:19:15.151--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [email] is being defaulted to: EMAIL.
+[EL Config]: metadata: 2019-08-13 16:19:15.151--ServerSession(1684792003)--Thread(Thread[main,5,main])--The column name for element [cep] is being defaulted to: CEP.
+[EL Config]: metadata: 2019-08-13 16:19:15.16--ServerSession(1684792003)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field pedido] is being defaulted to: _id.
+[EL Config]: metadata: 2019-08-13 16:19:15.16--ServerSession(1684792003)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [pedido] is being defaulted to: PEDIDO__id.
+[EL Config]: metadata: 2019-08-13 16:19:15.16--ServerSession(1684792003)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field cliente] is being defaulted to: _id.
+[EL Config]: metadata: 2019-08-13 16:19:15.161--ServerSession(1684792003)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [cliente] is being defaulted to: CLIENTE__id.
+[EL Config]: metadata: 2019-08-13 16:19:15.174--ServerSession(1684792003)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field filmes] is being defaulted to: _id.
+[EL Config]: metadata: 2019-08-13 16:19:15.174--ServerSession(1684792003)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [filmes] is being defaulted to: FILMES__id.
+[EL Config]: metadata: 2019-08-13 16:19:15.175--ServerSession(1684792003)--Thread(Thread[main,5,main])--The primary key column name for the mapping element [field pedidos] is being defaulted to: _id.
+[EL Config]: metadata: 2019-08-13 16:19:15.175--ServerSession(1684792003)--Thread(Thread[main,5,main])--The foreign key column name for the mapping element [pedidos] is being defaulted to: PEDIDOS__id.
+[EL Info]: 2019-08-13 16:19:15.216--ServerSession(1684792003)--Thread(Thread[main,5,main])--EclipseLink, version: Eclipse Persistence Services - 2.7.0.v20170811-d680af5
+[EL Config]: connection: 2019-08-13 16:19:15.219--ServerSession(1684792003)--Connection(1388278453)--Thread(Thread[main,5,main])--connecting(EISLogin(
+	platform=> MongoPlatform
+	user name=> ""
+	MongoConnectionSpec()
+))
+[EL Config]: connection: 2019-08-13 16:19:15.588--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Connected: 
+	User: 
+	Database: 3.6.8  Version: 3.6.8
+[EL Info]: connection: 2019-08-13 16:19:15.622--ServerSession(1684792003)--Thread(Thread[main,5,main])--/file:/home/dynnah/Workspace/retroflixmongo/target/classes/_mongodb login successful
+[EL Fine]: sql: 2019-08-13 16:19:15.752--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=FILME}
+	input => [DatabaseRecord()]
+[EL Fine]: sql: 2019-08-13 16:19:15.778--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=PEDIDO}
+	input => [5D530CBFDE8DA6227EC54514]
+[EL Fine]: sql: 2019-08-13 16:19:15.78--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=CLIENTE}
+	input => [5D530CBFDE8DA6227EC54513]
+[EL Fine]: sql: 2019-08-13 16:19:15.81--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=PEDIDO}
+	input => [5D530CC0DE8DA6227EC54517]
+[EL Fine]: sql: 2019-08-13 16:19:15.812--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=CLIENTE}
+	input => [5D530CC0DE8DA6227EC54516]
+[EL Fine]: sql: 2019-08-13 16:19:15.814--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=PEDIDO}
+	input => [5D530CC0DE8DA6227EC5451D]
+[EL Fine]: sql: 2019-08-13 16:19:15.816--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=CLIENTE}
+	input => [5D530CC0DE8DA6227EC5451A]
+[EL Fine]: sql: 2019-08-13 16:19:15.82--ServerSession(1684792003)--Connection(706895319)--Thread(Thread[main,5,main])--Executing MappedInteraction()
+	spec => null
+	properties => {mongo.operation=FIND, mongo.collection=PEDIDO}
+	input => [5D530CC0DE8DA6227EC5451B]
